@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+
+<body>
+    <h1>forms</h1>
+    <form action="" method="POST">
+        <!-- <label for="name">name</label>
+        <input type="password" placeholder="name">-->
+
+
+        <!-- <textarea name="textarea" placeholder="Lorem, ipsum." id=""></textarea> -->
+
+        <label for="phone No:">Phone No</label>
+        <input type="text" pattern="[1-9]+" />
+        <br>
+        <label for="capital and small"> add name</label>
+        <input type="text" pattern="[A-Za-z]+" name="capital and small">
+
+        <label for="capital and  small with space">capital small with space</label>
+        <input type="text" pattern="[A-Za-z ]+">
+        <br>
+        <br>
+        <br>
+        <label for="emil  space">email</label>
+        <input type="email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+.[a-zA-Z]{2,}" title="Enter a valid email">
+        <br>
+        <br>
+        <br>
+        <label for="8 bumber with U,u,charecer">8 bumber with U,u,charecer</label>
+        <input type="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%^&+=]).{8,}" title="At least 8 characters, one number, one uppercase letter, and one special character">
+
+
+
+
+        <button type="submit">submit</button>
+
+
+    </form>
+
+</body>
+
+</html>
